@@ -57,7 +57,7 @@ chmod +x sync_plone_instance.sh
 To schedule a sync at midnight every day:
 
 ```bash
-0 0 * * * /opt/plone/scripts/sync_plone_instance.sh /opt/plone/instance1 senaite@37.59.77.218:/opt/plone/instance1 >> /var/log/sync_instance1.log 2>&1
+0 0 * * * /opt/plone/scripts/sync_plone_instance.sh /opt/plone/instance1 senaite@yourserver:/opt/plone/instance1 >> /var/log/sync_instance1.log 2>&1
 ```
 
 For a dry run test:
